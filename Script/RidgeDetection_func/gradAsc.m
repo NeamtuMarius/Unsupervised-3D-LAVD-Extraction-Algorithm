@@ -1,4 +1,4 @@
-function [xp yp zp] = gradAsc(xp0,yp0,zp0,stepNum,xm,ym,zm,Vm,relDiff,cpFlag)
+function [yp xp zp] = gradAsc(xp0,yp0,zp0,stepNum,xm,ym,zm,Vm,relDiff,cpFlag)
 % writing feature space
 x = unique(xm); y = unique(ym); z = unique(zm);
 dx = mean(diff(x)); dy = mean(diff(y)); dz = mean(diff(z));
