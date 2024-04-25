@@ -26,7 +26,7 @@ Lag = 'Lag4'; % 'None', 'Lag4', 'Lag6', 'Lag8'
 %% params definition (to be setted)
 dt = 0.002; % from JH dataset readme
 dd = 2.0*pi/1024; % from JH dataset readme
-npoints_max = 128*128; % from tests on the JH readme maximum number of points that can be downloaded at a single call
+npoints_max = 64*64; % from tests on the JH readme maximum number of points that can be downloaded at a single call
 
 % initial and final time --> to set 
 t0 = dt; % dt*randi(1024,1);
